@@ -19,7 +19,8 @@ ENV PATH=$PATH:/root/env/ldb_toolchain/bin CC=clang CXX=clang++
 # 安装ccache
 RUN cd /root/env/ldb_toolchain/bin \
  && wget https://github.com/levy5307/ldb_toolchain_gen/raw/main/ccache \
- && chmod +x ccache
+ && chmod +x ccache \
+ && ccache -M 10G
 
 # 配置Python3
 RUN cd /usr/bin \
