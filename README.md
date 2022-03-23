@@ -1,3 +1,3 @@
 # ClickHouse-Docker
 
-Build env Dockerfile for ClickHouse
+Build env Dockerfile for ClickHouse in CentOS
