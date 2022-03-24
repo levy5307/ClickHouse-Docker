@@ -4,7 +4,7 @@ Build/Pack env Dockerfile for ClickHouse in CentOS.
 
 ## Usage
 
-You can use the following command to compile the Docker image:
+You can use the following command to build the Docker image:
 
 ```
 docker build -t clickhouse-buildenv .
